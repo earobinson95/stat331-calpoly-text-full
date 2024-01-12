@@ -1,0 +1,131 @@
+# Preface {.unnumbered}
+
+```{r fa-setup, include=F}
+library(fontawesome)
+fa_html_dependency()
+```
+
+This text has been modified from material by [Dr. Susan VanderPlas](https://github.com/srvanderplas) -- see [Statistical Computing using R and Python](https://srvanderplas.github.io/stat-computing-r-python/) for her course book -- with integration of content and videos from [Dr. Allison Theobold](https://github.com/atheobold) and [Dr. Kelly Bodwin](https://github.com/kbodwin).
+
+This text is designed to demonstrate statistical programming concepts and techniques in `R`. It is intended as a substitute for hours and hours of video lectures - watching someone code and talk about code is not usually the best way to learn how to code. It's far better to learn how to code by ... coding.
+
+I hope that you will work through this text week by week over the quarter. I have included comics, snark, gifs, YouTube videos, extra resources, and more: my goal is to make this a collection of the best information I can find on statistical programming.
+
+In most cases, this text includes **way more information** than you need. Everyone comes into this class with a different level of computing experience, so I've attempted to make this text comprehensive. Unfortunately, that means some people will be bored and some will be overwhelmed. Use this text in the way that works best for you - skip over the stuff you know already, ignore the stuff that seems too complex until you understand the basics. Come back to the scary stuff later and see if it makes more sense to you.
+
+## How to Use This Text
+
+I've made an effort to use some specific formatting and enable certain features that make this text a useful tool for this class.
+
+### Special Sections
+
+<br>
+
+::: check-in
+#### Check-in
+
+Check-in sections contain quizzes or preview activities you **must** complete and submit to Canvas for credit.
+:::
+
+<br>
+
+::: tryitout
+#### Try It Out
+
+Try it out sections contain the required weekly practice activities (and sometimes additional/optional activities) you should do to reinforce the things you've just read.
+:::
+
+<br>
+
+::: watchout
+#### Watch Out
+
+Watch out sections contain things you may want to look out for - common errors, etc.
+:::
+
+<br>
+
+
+::: ex
+#### Examples
+
+Example sections contain code and other information. Don't skip them!
+:::
+
+<br>
+
+
+::: go-read
+#### Go Read
+
+Sometimes, there are better resources out there than something I could write myself. When you see this section, go read the enclosed link as if it were part of the book.
+:::
+
+<br>
+
+
+::: learn-more
+#### Learn More
+
+Learn More sections contain other references that may be useful on a specific topic. Suggestions are welcome (email me to suggest a new reference that I should add), as there's no way for one person to catalog all of the helpful programming resources on the internet!
+:::
+
+<br>
+
+
+::: my-opinion
+#### My Opinion
+
+These sections contain things you should definitely not consider as fact and should just take with a grain of salt.
+:::
+
+<br>
+
+
+::: note
+#### Note
+
+Note sections contain clarification points (anywhere I would normally say "note that ....)
+:::
+
+<br>
+
+
+#### Expandable Sections
+
+<details>
+
+<summary>These are expandable sections, with additional information when you click on the line</summary>
+
+This additional information may be information that is helpful but not essential, or it may be that an example just takes a LOT of space and I want to make sure you can skim the book without having to scroll through a ton of output.
+
+</details>
+
+<details class="ex">
+
+<summary>Many times, examples will be in expandable sections</summary>
+
+This keeps the code and output from obscuring the actual information in the textbook that I want you to retain. You can always look up the syntax, but you do need to absorb the details I've written out.
+
+</details>
+
+## Additional Resources
+
+References or additional readings may come from the following texts:
+
+-   [R for Data Science (2e)](https://r4ds.hadley.nz/)
+-   [Advanced R](https://adv-r.hadley.nz/)
+-   [Modern Dive](https://moderndive.com/)
+-   [Stat 545 (Data wrangling, exploration, and analysis with R) by Jenny Bryan](https://stat545.com/)
+
+You can find additional help for Coding in R from the following resources:
+
+-   [RStudio Education Page](https://education.rstudio.com/learn/beginner/)
+-   [Posit Primers](https://posit.cloud/learn/primers)
+-   ["R Bootcamp" Practice](https://r-bootcamp.netlify.app/)
+
+Part of this course will be dedicated to conducting familiar statistical analyses using R code. You can find a refresher on statistical concepts from the following resources:
+
+- [Introduction to Modern Statistics](https://openintro-ims.netlify.app/)
+- [Modern Dive](https://moderndive.com/1-getting-started.html)
+
